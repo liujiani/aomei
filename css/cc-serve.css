@@ -1,0 +1,10 @@
+/****************************       内容主题                 ********************************/
+
+.cc-main{width:100%;overflow: hidden;}
+.cc-main ul{width:100%;}
+.cc-main ul li{float:left;text-align: center;width:25%;height:300px;}
+.cc-main ul li img{width:100%;height:auto;} 
+.cc-main ul li img:last-child{display: none;}  
+.cc-main ul li h4{margin: 5px 0 50px 0;}
+.cc-main ul li h4 a{font-size: 24px;line-height: 28px;color: #959595;font-weight: 100;}
+.cc-main ul li h4 a:hover{color: #e2231a;}

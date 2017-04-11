@@ -1,0 +1,213 @@
+/****************************       内容主题                 ********************************/
+
+.cc-main{width:100%;overflow: hidden;}
+.cc-main .ljn-zhi{
+	width: 100%;
+	height: 500px;
+}
+.cc-main .ljn-zhi .zuo{
+	width: 50%;
+	height: 500px;
+	float: left;
+	position: relative;
+	background: url(../img/ljn-careers/ogilvy_jobopportunities.jpg) no-repeat center;
+}
+.cc-main .ljn-zhi .zuo .meng{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #333;
+	opacity: .5;
+	display: none;
+	z-index: 1;
+}
+.cc-main .ljn-zhi .zuo .wen{
+	padding-top:124px;
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    /*margin: 0 auto;*/
+    /*top: ;*/
+    color: #fff;
+    cursor: pointer;
+    z-index: 999;
+}
+.cc-main .ljn-zhi .zuo .wen h2{
+	font-size: 33px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.cc-main .ljn-zhi .zuo .wen .one{
+	font-size: 17px;
+	line-height: 25px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.cc-main .ljn-zhi .zuo .wen .onea{
+	font-size: 17px;
+	text-align: center;
+}
+.cc-main .ljn-zhi .zuo .anniu{
+	width: 197px;
+	height: 45px;
+	margin: 20px auto;
+	padding: 4px;
+	border: 1px solid #E2231A;
+}
+.cc-main .ljn-zhi .zuo .anniu:hover,.cc-main .ljn-zhi .you .anniu:hover{
+	border: 1px solid #fff;
+}
+.cc-main .ljn-zhi .zuo .anniu a:hover,.cc-main .ljn-zhi .you .anniu a:hover{
+	background: #fff;
+	color: #E2231A;
+}
+.cc-main .ljn-zhi .zuo .anniu a{
+	width: 197px;
+	height: 45px;
+	display: block;
+	background: #E2231A;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+	font-size: 21px;
+}
+.cc-main .ljn-zhi .you{
+	width: 50%;
+	height: 500px;
+	float: left;
+	background:#efefee;
+	position: relative;
+}
+.cc-main .ljn-zhi .you .menga{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #999;
+	opacity: .5;
+	display: none;
+	z-index: 1;
+}
+.cc-main .ljn-zhi .you .wen{
+	padding-top:124px;
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: #58585b;
+    z-index: 999;
+    cursor: pointer;
+}
+.cc-main .ljn-zhi .you .wen h2{
+	font-size: 33px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.cc-main .ljn-zhi .you .wen .one{
+	font-size: 17px;
+	line-height: 25px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.cc-main .ljn-zhi .you .anniu{
+	width: 134px;
+	height: 45px;
+	margin: 20px auto;
+	padding: 4px;
+	border: 1px solid #E2231A;
+}
+.cc-main .ljn-zhi .you .anniu a{
+	width: 134px;
+	height: 45px;
+	display: block;
+	background: #E2231A;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+	font-size: 21px;
+}
+.cc-main .lian{
+	height: 500px;
+	width: 100%;
+}
+.cc-main .lian .left{
+	height: 500px;
+	width: 75%;
+	float: left;
+	background: #e31d1a url(../img/ljn-careers/ogilvy_career_contact_bg-1.png) no-repeat center;
+	background-size: contain;
+	
+}
+.cc-main .lian .left .top{
+	margin-top: 147px;
+	width: 100%;
+	cursor: pointer;
+}
+.cc-main .lian .left .top h2{
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 38px;
+    text-align: center;
+}
+.cc-main .lian .left .top p{
+    color: #ffffff;
+    margin-bottom: 35px;
+    font-size: 17px;
+    text-align: center;
+}
+.cc-main .lian .left .lie{
+	width: 85%;
+	height: 88px;
+	margin: 0 auto;
+	display: flex;
+}
+.cc-main .lian .left .lie .di{
+	border-right: 1px solid #fff;
+	flex: 1;
+}
+.cc-main .lian .left .lie .di p{
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	margin: 18px 0 14px 0;
+}
+.cc-main .lian .left .lie .di a{
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: underline;
+}
+.cc-main .lian .right{
+	width: 25%;
+	height: 450px;
+	padding-top: 50px;
+	float: left;
+	cursor: pointer;
+	box-sizing: border-box;
+	padding-left:20px;
+	padding-right:20px;
+}
+.cc-main .lian .right h2{
+	color: #e2231a;
+    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+.cc-main .lian .right p{
+	text-align: center;
+	color: #e2231a;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+
+
+

@@ -1,0 +1,43 @@
+/****************************       内容主题                 ********************************/
+*{font-family: 黑体, STHeiti, dinbold, Arial, Helvetica, sans-serif;}
+.cc-main{width:100%;overflow: hidden;}
+.cc-main ul{width:100%;}
+.cc-main ul li{width:33.3%;height:900px;float:left;position:relative;z-index: 1;}
+.cc-main ul li .img{width:100%;height:100%;overflow: hidden;position: relative;}
+.cc-main ul li .img img{top: 0%;left: -49.7344%;width: auto;height: 101%;visibility: visible;display: block;position: absolute;}
+.cc-main ul li .bj{width:100%;height:100%;z-index: 2;background-color: rgba(54,56,57,0.85);position:absolute;top:0;left:0;display: none;}
+.cc-main ul li .cont{width:100%;height:100%;position:absolute;top:0;left:0;z-index: 3;}
+.cc-main ul li .cont .text{position:absolute;top: 388px;left: 0px;width: 100%;vertical-align: middle;font-size: 20px;text-align: center;}
+.cc-main ul li .cont .text .uname{font-size: 21px;line-height: 25px;color: #ffffff;font-weight: 100;display: block;text-align: center;clear: both;margin: 10px 0px 0px 0px;background-color: rgba(255,255,255,0);position: relative;text-shadow: rgba(0, 0, 0, 0.498039) 2px 2px 8px;}
+.cc-main ul li .cont .text .job{font-size: 40px;line-height: 48px;color: #ffffff;font-weight: 100;display: block;text-align: center;clear: both;margin: 10px 0px 0px 0px;background-color: rgba(255,255,255,0);position: relative;text-shadow: rgba(0, 0, 0, 0.498039) 2px 2px 8px;}
+.cc-main ul li .cont .text .time{text-shadow: 2px 2px 8px rgba(0,0,0,0.5);font-size: 21px;line-height: 25px;color: #ffffff;font-weight: 100;display: block;text-align: center;clear: both;margin: 30px 0px 0px 0px;background-color: rgba(255,255,255,0);position: relative;transition:all .3s;transform:translateY(-20px);}
+.cc-main ul li .cont .text .pic{width:62px;height:62px;border-radius:50%;background:transparent url(../img/cc-production/more-cases-0.gif) no-repeat;margin: -30px auto 0;opacity: 0;transition: all .5s;z-index: 4;}
+
+
+
+
+.cc-main ul li:hover .bj{display: block;}
+.cc-main ul li:hover .cont .time{transform:translateY(0px);opacity: 0;} 
+.cc-main ul li:hover .cont .pic{opacity: 1;}
+.cc-main ul li .cont .pic:hover{background:transparent url(../img/cc-production/more-cases-1.gif) no-repeat;} 
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

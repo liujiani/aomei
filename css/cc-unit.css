@@ -1,0 +1,42 @@
+/****************************       内容主题                 ********************************/
+
+.cc-main{width:100%;overflow: hidden;}
+.cc-main ul{width:100%;background:#F6F6F6;}
+.animate{visibility: hidden;opacity: 0;transform-origin: 50% 50% 0px;transform-style: flat;transform: translate(-50%, 0%) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);}
+.cc-main ul li{width:25%;height:390px;float:left;overflow: hidden;box-sizing: border-box;transition: background 100ms ease;background-color: rgba(0, 0, 0, 0);border-color: transparent;padding-left: 15px;padding-right: 15px;}
+.cc-main ul li:nth-child(1),.cc-main ul li:nth-child(2),.cc-main ul li:nth-child(3){width:33.3%;}
+.cc-main ul li .img{box-sizing: border-box;width: 100%;overflow: hidden;}
+.cc-main ul li .img img{vertical-align: middle;height: auto;max-width: 100%;}
+.cc-main ul li:hover{background:rgb(242,243,243);-background-color:#f2f2f3;}
+
+.cc-main .box{background-color: rgb(242, 242, 243);text-align: left;height: 500px;position:relative;display: none;}
+.cc-main .box>img{position:absolute;top:10px;right:10px;transition:transform .4s;}
+.cc-main .box>img:hover{transform: rotate(-135deg);}
+.cc-main .box .details .ad{min-height: 500px;background:url(../img/cc-unit/ogilvymather_bg2-1.png) no-repeat;background-position: 50% 50%;background-size: auto auto;display: none;}
+.cc-main .box .details .ad:nth-of-type(2){background:url(../img/cc-unit/ogilvypublicrelations_bg2.png) no-repeat 50% 50%;background-size: auto auto;}
+.cc-main .box .details .ad:nth-of-type(5){background:url(../img/cc-unit/neoogilvy_bg2.png) no-repeat 50% 50%;background-size: auto auto;}
+.cc-main .box .details .ad:nth-of-type(6){background:url(../img/cc-unit/socialogilvy_bg2-1.png) no-repeat 50% 50%;background-size: auto auto;}
+.cc-main .box .details .ad:nth-of-type(7){background:url(../img/cc-unit/geometryglobal_bg2.png) no-repeat 50% 50%;background-size: auto auto;}
+.cc-main .box .details .ad .cont{width:40%;margin:0 auto;min-height: 500px;box-sizing: border-box;padding-left: 15px;padding-right: 15px;display: block;} 
+.cc-main .box .details .ad .cont .text{width:100%;box-sizing: border-box;display: table-cell;vertical-align: middle;height: 500px;text-align: center;}
+.cc-main .box .details .ad .cont .text .pic{display: inline-block;vertical-align: top;max-width: 100%;margin-bottom:15px;}
+.cc-main .box .details .ad .cont .text .pic img{width:100%;}
+.cc-main .box .details .ad .cont .text .txt{width:100%;} 
+.cc-main .box .details .ad .cont .text .txt h3{font-size: 24px;line-height: 28px;color: #969696; margin: 0 0 30px 0;text-transform: none;}
+.cc-main .box .details .ad .cont .text .txt p{font-size: 16px;line-height: 20px;color: #4D4D4E;margin: 0 auto 30px auto;width: 100%;}
+.cc-main .box .details .ad .cont .text .txt .italic{font-style: italic;margin:0 auto;}
+.cc-main .box .details .ad .cont .text .link{border: 1px solid #E2231A;box-sizing: border-box;display: inline-block;margin-bottom: 35px;}
+.cc-main .box .details .ad .cont .text .link button{background: #E2231A;margin: 4px;padding: 10px 25px;transition: none;box-sizing: border-box;font-size: 12px;position:relative;outline: none;border:none;cursor:pointer;}  
+.cc-main .box .details .ad .cont .text .link button span{box-sizing: border-box;}
+.cc-main .box .details .ad .cont .text .link button span:first-child{width: 100%;height: 100%;top: 0;left: 0;bottom: 0;right: 0;position: absolute;}
+.cc-main .box .details .ad .cont .text .link button span:last-child{color:white;}
+.cc-main .box .details .ad .cont .text .link:hover{border-color:white;} 
+.cc-main .box .details .ad .cont .text .link:hover button{background:white;}
+.cc-main .box .details .ad .cont .text .link:hover button span:last-child{color:#E2231A;}
+    
+
+
+
+
+
+

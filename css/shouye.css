@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.tou {
+	width: 100%;
+	height: 665px;
+	position: relative;
+	top: 0;
+	overflow: hidden;
+}
+
+.zi {
+	width: 100%;
+	height: 300px;
+	font-size: 100px;
+	color: #fff;
+	position: absolute;
+	text-align: center;
+	top: 200px;
+	font-family: "黑体";
+}
+.xia{position: absolute;top: 400px;left: 600px;
+width: 128px;height: 128px;}
+.hu{width: 122px;
+	height: 90px;display: none;float: left;}
+.diyi{width: 400px;height: 500px;background: rgba(255,255,255,0.8);
+position: absolute;top: 0px;z-index: 10;text-align: center;animation: don 1.5s 1s;animation-direction:alternate;animation-iteration-count:infinite;}
+.dier{width: 400px;height: 500px;background: rgba(255,255,255,0.8);
+position: absolute;top: 0px;z-index: 10;text-align: center;animation: don 1.5s 6s;animation-direction:alternate;animation-iteration-count:infinite;}
+.disan{width: 400px;height: 500px;background: rgba(255,255,255,0.8);
+position: absolute;top: 0px;z-index: 10;text-align: center;animation: don 1.5s 14s;animation-direction:alternate;animation-iteration-count:infinite;}
+.quan{transform: translateX(-400px);width: 400px;height: 500px;position:relative;top: -500px;z-index: 15;}
+.diyi:hover{animation: none;transform: translateX(400px);z-index: 20;}
+.dier:hover{animation: none;transform: translateX(400px);z-index: 20;}
+.disan:hover{animation: none;transform: translateX(400px);z-index: 20;}
+.quan:hover{animation: none;}
+.swiper-slide{text-align: center;}
+.l_banner img{height: 500px;}
+.l_banner{position: relative;}
+.quan h4{font-size: 24px;color: #808080;margin-top: 160px;}
+.quan h2{font-size: 38px;color: #ED2224;margin-top: 10px;}
+.quan h6{font-size: 24px;color: #808080;margin-top: 20px;}
+@keyframes don{
+	from{transform: translateX(0px);opacity: 0;}
+	to{transform: translateX(400px);opacity: 1;}
+}
+.xiao{font-size:18px;color: #fff;border: 1px solid #ED2224;width: 126px;height: 29px;padding-top: 12px;margin: 0 auto;margin-top: 30px;}
+.xiao span{padding: 8px 20px 8px 20px;background: #ED2224;border: 1px solid white;}
+.dian{width: 100%;height: 500px;}
+.left{width: 903px;height: 100%;background: url(../img/shouye//REN.png);float: left;overflow: hidden;}
+.right{width: 446px;height: 500px;float: right;}
+.shang{width: 446px;height: 250px;position: absolute;overflow: hidden;}
+.shang1{width: 10000px;height: 250px;position: absolute;transition: all 0.5s;left: 0;top: 0;}
+.shang2{width: 346px;height: 150px;float: left;background: #C82026;padding: 50px;color: #fff;}
+.shang2 h2{font-size: 19px;}
+.shang2 p{font-size: 16px;margin-top: 15px;}
+.r{transform: rotateY(180deg);position: relative;left: 10px;z-index: 20;top: 120px;}
+.l{position: relative;left: 420px;top: 120px;}
+.xiam{width: 446px;height: 250px;position: relative;overflow: hidden;top: 238px;}
+.xiam1{width: 10000px;height: 250px;position: absolute;transition: all 0.5s;left: 0;top: 0;}
+.xiam2{width: 346px;height: 150px;float: left;background: #ED2224;padding: 50px;color: #fff;}
+.xiam2 h2{font-size: 19px;}
+.xiam2 p{font-size: 16px;margin-top: 15px;}
+.xj{width: 80%;height: 32.3%;background:#C82026;color: #fff;padding: 10%;}
+.xj h2{font-size: 19px;}
+.xj p{font-size: 16px;margin-top: 15px;}
+.don{width: 100%;height: 500px;}
+.zuo{width: 50%;height: 500px;background: url(../img/shouye//AOMEI.png);float: left;}
+.you{width: 50%;height: 500px;background: url(../img/shouye//WA.png);float: right;}
+.left h2{font-size: 24px;margin-left: 600px;margin-top: 110px;color: #fff;}
+.left h1{font-size: 60px;margin-left: 400px;margin-top: 40px;color: #fff;line-height: 70px;}
+.hon{font-size:18px;color: #fff;border: 1px solid #ED2224;width: 140px;height: 30px;padding-top: 12px;margin-top: 30px;margin-left: 600px;}
+.hon span{padding: 8px 25px 8px 20px;background: #ED2224;border: 1px solid white;}
+.zuo1{width: 510px;height: 250px;padding-left: 50px;padding-top: 100px;}
+.zuo1 h2{font-size:48px;text-align:left;color: #000;}
+.zuo1 h1{font-size: 20px;text-align:left;color: #000;margin-top: 30px;}
+.xil{font-size:18px;color: #fff;border: 1px solid #000;width: 140px;height: 30px;padding-top: 12px;margin-top: 30px;}
+.xil span{padding: 8px 25px 8px 20px;background: #000;border: 1px solid white;}
+.xil span:hover{background: #666;}
+.xiu{width: 300px;height: 300px;text-align: center;margin: 0 auto;margin-top: 200px;}
+.xiu h2{font-size: 38px;color: #fff;}
+.xik{font-size:18px;color: #fff;border: 1px solid #000;width: 120px;height: 30px;padding-top: 12px;margin: 0 auto;margin-top: 50px;}
+.xik span{padding: 8px 25px 8px 20px;background: #000;border: 1px solid white;}

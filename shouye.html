@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/commonality.css" />
+		<link rel="stylesheet" type="text/css" href="css/sxl-head.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cc-footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shouye.css" />
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/sxl-commonality.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<link rel="stylesheet" href="css/swiper.min.css"/>
+		<script>
+			window.onload = function(){
+				var da = document.getElementById('qu');
+				var xiao = da.getElementsByTagName('div')
+				var left = document.getElementById('zuo')
+				var right = document.getElementById('you')
+				var zuo = document.getElementById('wa')
+				var you = document.getElementById('ka')
+				var odi = document.getElementById('di');
+				var xing = odi.getElementsByTagName('div')
+				now = 0;
+				t = 0;
+				left.onclick = shang;
+				right.onclick = xia;
+				
+				function xia(){
+					now--;
+					if(now == -1){
+						now = xiao.length-1;
+					}
+					shu();
+					da.style.left = -now * 446 + 'px';
+				}
+				function shang(){
+					now++;
+					if(now==xiao.length){
+						now = 0;
+					}
+					shu();
+					da.style.left = -now * 446 + 'px';
+				}
+				function shu(){
+					da.style.left = -now * 446  +  'px';
+				}
+				
+				zuo.onclick = lon;
+				you.onclick = xin;
+				function xin(){
+					t--;
+					if(t == -1){
+						t = xing.length-1;
+					}
+					shuo();
+					odi.style.left = -t * 446 + 'px';
+				}
+				function lon(){
+					t++;
+					if(t==xing.length){
+						t = 0;
+					}
+					shuo();
+					odi.style.left = -t * 446 + 'px';
+				}
+				function shuo(){
+					odi.style.left = -t * 446  +  'px';
+				}
+			}
+		</script>
+		<style>
+			header .red a{border-bottom:3px solid #C82026;}
+		</style>
+	</head>
+	<body>
+			<a href="#" class="cc-back_top">
+				<img src="img/shouye/icon_03.gif" alt="" />
+			</a>
+			
+		<div class="tou">
+			<video src="ogilvy-advertising-reel-home.mp4" width="100%" autoplay="autoplay" loop="loop"></video>
+		</div>
+		<header>
+				<div class="cc-search">
+					<img src="img/shouye/search.gif" alt="" />
+					<img src="img/shouye/del.gif" alt="" class="del" />
+				</div>
+				<div class="cc-head">
+					<div class="cc-header">
+						<img src="img/shouye/logo_ogilvy_sm_white.png" alt="" class="hul"/>
+							<img src="img/shouye/logo_ogilvy_sm.gif" class="hu">
+						<div class="cc-menu">
+							<img src="img/shouye/fangda.png" alt="" class="search" />
+
+							<div class="language">
+								<a href="javascript:;" class="language_show">CN</a>
+								<a href="javascript:;" class="language_hide">EN</a>
+							</div>
+						</div>
+						<ul>
+							<li class="red">
+								<a href="shouye.html">主页</a>
+							</li>
+							<li>
+								<a href="javascript:;">作品</a>
+								<div class="hide">
+									<ul>
+										<li><a href="cc-production.html"><span>作品</span></a></li>
+										<li><a href="crl_news.html"><span>奥美观点</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="cc-serve.html">我们的服务</a>
+							</li>
+							<li>
+								<a href="javascript:;">关于奥美</a>
+								<div class="hide">
+									<ul>
+										<li><a href="yuanjing.html"><span>奥美愿景</span></a></li>
+										<li><a href="ljn-history.html"><span>奥美中国历史</span></a></li>
+										<li><a href="cc-team.html"><span>我们的领导团队</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="cc-unit.html">业务单元</a>
+							</li>
+							<li>
+								<a href="javascript:;">奥美新闻</a>
+								<div class="hide">
+									<ul>
+										<li><a href="crl_news2.html"><span>新闻稿</span></a></li>
+										<li><a href="crl_life.html"><span>奥美生活</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="ljn-careers.html">职业发展</a>
+							</li>
+							<li>
+								<a href="ljn-contact.html">联系我们</a>
+							</li>
+						</ul>
+					</div>
+			</header>
+		<div class="zi">
+			<p>我们让</p>
+			<p>品牌变的有意义</p>
+		</div>
+		<img src="img/shouye/downarrow4.gif" class="xia"/>
+		
+		<div class="l_banner" style="width: 100%;height: 500px;">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/shouye/agoda-KV-1600500.jpeg"></div>
+					<div class="swiper-slide"><img src="img/shouye/Dove2.jpg" width="100%"></div>
+					<div class="swiper-slide"><img src="img/shouye/VisitBritain-screenshot-2.jpg"></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+			<div class="quan">
+			<div class="diyi">
+				<h4>安可达</h4>
+				<h2>陆潜者</h2>
+				<h6>2016</h6>
+				<a href=""><div class="xiao">
+					<span>了解更多</span>
+				</div></a>
+			</div>
+			<div class="dier">
+				<h4>多芬</h4>
+				<h2>比牛奶更滋养</h2>
+				<h6>2011-2014</h6>
+				<a href=""><div class="xiao">
+					<span>了解更多</span>
+				</div></a>
+			</div>
+			<div class="disan">
+				<h4>英国国家旅游局</h4>
+				<h2>英国等你来命名</h2>
+				<h6>2015</h6>                 
+				<a href=""><div class="xiao">
+					<span>了解更多</span>
+				</div></a>
+			</div>
+			
+			</div>
+		</div>
+			<div class="dian">
+				<div class="left">
+					<h2>我们的服务</h2>
+					<h1>一切为了销售，否则我们一无是处。</h1>
+					<a href=""><div class="hon">
+					<span>我们的业务</span>
+					</div></a>
+				</div>
+				<div class="right">
+					<div class="shang">
+						<div class="shang1" id="qu">
+							<div class="shang2">
+								<h2>你觉得...真爱是什么颜色？</h2>
+								<p>2016.12.16</p>
+							</div>
+							<div class="shang2">
+								<h2>你觉得...真爱是什么颜色？</h2>
+								<p>2016.12.16</p>
+							</div>
+							<div class="shang2">
+								<h2>你觉得...真爱是什么颜色？</h2>
+								<p>2016.12.16</p>
+							</div>
+						</div>
+					</div>
+					<img src="img/shouye/icon_02.gif" class="r" id="zuo">
+					<img src="img/shouye/icon_02.gif" class="l" id="you">
+					
+					
+					<div class="xiam">
+						<div class="xiam1" id="di">
+							<div class="xiam2">
+								<h2>你觉得...真爱是什么颜色？</h2>
+								<p>2016.12.16</p>
+							</div>
+							<div class="xiam2">
+								<h2>你觉得...真爱是什么颜色？</h2>
+								<p>2016.12.16</p>
+							</div>
+							<div class="xiam2">
+								<h2>你觉得...真爱是什么颜色？</h2>
+								<p>2016.12.16</p>
+							</div>
+						</div>
+					</div>
+					<img src="img/shouye/icon_02.gif" class="r" id="wa">
+					<img src="img/shouye/icon_02.gif" class="l" id="ka">
+				</div>
+			</div>
+			
+			<div class="don">
+				<div class="zuo">
+						<div class="zuo1">
+						<h2>奥美在中国</h2>
+						<h1>长达20多年的征程，从我们第一次做的黑白版的报纸广告到我们现代的作品未来</h1>
+						<a href=""><div class="xil">
+						<span>我们的历史</span>
+						</div></a>
+					</div>
+				</div>
+				<div class="you">
+					<div class="xiu">
+						<h2>三亚见</h2>
+						<a href=""><div class="xik">
+						<span>奥美生活</span>
+						</div></a>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="footer_top">
+					<div class="footer_before">
+						<h5>需要什么帮忙</h5>
+						<ul>
+							<li>
+								<a href="cc-production.html">查看我们的作品</a>
+							</li>
+							<li>
+								<a href="ljn-contact.html">联系我们</a>
+							</li>
+							<li>
+								<a href="cc-serve.html">查看我们的业务</a>
+							</li>
+							<li>
+								<a href="ljn-careers.html">加入我们</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_after">
+						<h5>关注我们</h5>
+						<div class="icon">
+							<img src="img/cc-serve/QRcode_ogilvy_home.gif" alt="" />
+							<a href="http://www.weibo.com/ogilvy"><img src="img/cc-serve/services-vb.gif" alt="" /></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer_bottom">
+					<ul>
+						<li>
+							<a href="shouye.html">主页</a>
+						</li>
+						<li>
+							<a href="javascript:;">全球奥美</a>
+						</li>
+						<li>
+							<a href="javascript:;">WPP</a>
+						</li>
+						<li>
+							<a href="cc-privacy.html">隐私政策</a>
+						</li>
+					</ul>
+					<span>© Copyright Ogilvy China 2016</span>
+				</div>
+			</footer>
+		</div>
+		<!--
+        	作者：陈晨
+        	时间：2016-12-21
+        	描述：js
+        -->
+        <script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth / 6.4 + "px";
+	onresize = function() {
+		document.documentElement.style.fontSize = innerWidth / 6.4 + "px";
+	}
+</script>
+<script type="text/javascript">
+	var swiper = new Swiper(".swiper-container", {
+		autoplay: 1500,
+		loop: true,
+		speed: 1500,
+		pagination: '.swiper-pagination',
+		paginationClickable: true,
+		autoplayDisableOnInteraction: false,
+		keyboardControl:true
+	})
+</script>
+		<script>
+			$(function(){
+				//
+				$('.pic img').mouseover(function(){
+					$(this).css({'transform':'scale(0.8)'})
+				})
+				$('.pic img').mouseout(function(){
+					$(this).css({'transform':'scale(1)'})
+				})
+				$('.team_del').mouseover(function(){
+					$(this).css({'transform':'rotate(-135deg)'});
+				})
+				$('.team_del').click(function(){
+					$('.box').css('display','none')
+				})
+				$('.team_del').mouseout(function(){
+					$(this).css({'transform':'rotate(0deg)'})
+				})
+				$('.cc-main ul li').click(function(){
+					var $now = $(this).index();
+					$('.box').css('display','block');
+					$('.box .person').eq($now).css('display','block').siblings('.box .person').css('display','none');
+					$(window).scrollTop(0);
+				})
+			})
+			
+		</script>
+	</body>
+
+</html>

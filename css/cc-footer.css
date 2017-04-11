@@ -1,0 +1,22 @@
+
+/****************************       底部                 ********************************/
+
+footer{width:100%;height:350px;background:#404041;}
+.footer_top{width:1100px;padding:72px 0 52px;margin:0 auto;height:173px;font-size: 16px;}
+.footer_top .footer_before{width:66%;float:left;}
+.footer_top .footer_after{width:34%;float:right;}
+.footer_top .footer_before h5{padding: 0 300px 5px 0px;} 
+.footer_top .footer_after h5{padding: 0 100px 5px 0px;}   
+.footer_top h5{display: inline-block;border-bottom: 1px solid #fff;text-transform: none;margin-bottom: 22px;color: white;line-height: 29px;}
+.footer_top ul li{display: inline-block;width: 40%;padding: 0 0 17px;line-height: 22px;word-wrap: break-word;}
+.footer_top ul li a{-webkit-transition: color .2s ease-in-out;color: white;background:url(../img/cc-serve/icon_02.gif) no-repeat right center;padding-right:10px;}
+        
+.footer_top .footer_after .icon{width:100%;}   
+.footer_top .footer_after .icon>img{width:115px;height:120px;margin-right:15px;}
+.footer_top .footer_after .icon a>img:nth-child(2){width:66px;height:54px;}
+
+.footer_bottom{padding:0 45px;background:#010101;text-align: right;color:#cccccb;height: 53px;line-height: 53px;font-size: 15px;}
+.footer_bottom ul{width:50%;float:left;}
+.footer_bottom ul li{height: 53px;margin-right: 46px;float:left;vertical-align: middle;display: inline-block;}
+.footer_bottom ul li a{color:#cccccb;transition: color .3s ease-in-out;}
+.footer_bottom ul li a:hover{color:#818181;}
